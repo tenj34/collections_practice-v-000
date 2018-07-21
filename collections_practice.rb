@@ -22,3 +22,12 @@ end
 def reverse_array(num)
   num.reverse!
 end
+
+def kesha_maker(num)
+num.collect do { |element|  }
+  element[2] = "#$"
+  eleme
+
+
+
+end
