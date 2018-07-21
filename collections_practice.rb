@@ -14,9 +14,6 @@ def sort_array_char_count(num)
   num.sort_by(&:length)
 end
 
-def swap_elements(num)
-
-end
 
 def reverse_array(num)
   num.sort_by { |num2| -num2.sort}
