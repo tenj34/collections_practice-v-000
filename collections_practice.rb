@@ -25,7 +25,7 @@ end
 
 def kesha_maker(num)
   num.collect do |element|
-    element[2] = "#$"
+    element[2] = "$"
     element
   end
 end
