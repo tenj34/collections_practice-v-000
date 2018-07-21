@@ -19,5 +19,5 @@ def swap_elements(num)
 end
 
 def reverse_array(num)
-  num.sort_by { |num| -num.sort}
+  num.sort_by { |num2| -num2.sort}
 end
