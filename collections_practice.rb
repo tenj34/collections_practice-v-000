@@ -29,3 +29,7 @@ def kesha_maker(num)
     element
   end
 end
+
+def find_a(array)
+  array.select {|words| words.start_with?("a")}
+end
