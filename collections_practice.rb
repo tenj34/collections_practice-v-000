@@ -16,5 +16,5 @@ end
 
 
 def reverse_array(num)
-  num.sort_by { |num2| -num2.reverse}
+  num.reverse!
 end
